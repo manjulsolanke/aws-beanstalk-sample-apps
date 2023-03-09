@@ -97,7 +97,7 @@ Step b2: Create a build project
 
  1) Open the AWS CodeBuild console at https://console.aws.amazon.com/codesuite/codebuild/home.
 
- 2) Create a build project. For more information, see Create a build project (console) and Run a build (console). Leave all settings at their default values, except for these settings.
+ 2) `Create a build project` : For more information, see Create a build project (console) and Run a build (console). Leave all settings at their default values, except for these settings.
 
     For Environment:
 
@@ -118,11 +118,7 @@ Step b3: Create an Elastic Beanstalk application and environment
     
     In this step, you create an Elastic Beanstalk application and environment to use with CodePipeline.
 
-    1) Open the Elastic Beanstalk console at https://console.aws.amazon.com/elasticbeanstalk/.
-
-    2) Use the AWS Elastic Beanstalk console to create an application. For more information, see Managing and configuring AWS Elastic Beanstalk applications in the AWS Elastic Beanstalk Developer Guide.
-
-    3) Use the AWS Elastic Beanstalk console to create an environment. For more information, see The create new environment wizard in the AWS Elastic Beanstalk Developer Guide. Except for Platform, leave all settings at their default values. For Platform, choose Tomcat.
+    1) Open the Elastic Beanstalk console at https://docs.aws.amazon.com/codebuild/latest/userguide/sample-elastic-beanstalk.html#sample-elastic-beanstalk-codepipeline
 
 Step b4: Create the pipeline and deploy
     
