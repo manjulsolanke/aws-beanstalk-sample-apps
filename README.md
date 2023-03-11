@@ -32,7 +32,7 @@
 
 4) Switch to an empty directory on your local computer or instance, and then run this Maven command.
     ```
-    mvn archetype:generate "-DgroupId=com.mycompany.app" "-DartifactId=ROOT" "-DarchetypeArtifactId=maven-archetype-webapp" "-DinteractiveMode=false"`
+    mvn archetype:generate "-DgroupId=com.mycompany.app" "-DartifactId=ROOT" "-DarchetypeArtifactId=maven-archetype-webapp" "-DinteractiveMode=false"
     ```
 5) Create a subdirectory named `.ebextensions` in the ROOT directory. 
 n the .ebextensions subdirectory, create a file named `fix-path.config` with this content
